@@ -22,6 +22,6 @@ def find_the_cheese(snacks)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   snacks.find do|cheese|
-  cheese.cheese_types
+  cheese.cheese_types?
 end
 end
