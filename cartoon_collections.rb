@@ -8,7 +8,7 @@ end
 def summon_captain_planet(planeteer_calls)
   # Your code here
   planeteer_calls.map! {|names| names.capitalize}
-  planeteer_calls. each 
+  planeteer_calls. each {|names| 
 end
 
 def long_planeteer_calls# code an argument here
