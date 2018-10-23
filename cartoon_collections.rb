@@ -11,9 +11,9 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.map! {|names| names + "!"}
 end
 
-def long_planeteer_calls(calls)
+def long_planeteer_calls(words)
   # Your code here
-  
+  words.any?
 end
 
 def find_the_cheese# code an argument here
